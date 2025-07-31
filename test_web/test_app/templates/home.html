@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+</head>
+<body style="background-color: grey;">
+    <h1>This is the page</h1>
+    
+    <form action="" method="post">
+        {% csrf_token %}
+    <input type="text" name="name" id="" placeholder="Enter your name">
+    <br><br>
+    <input type="text" name="number" id="" placeholder="Enter your number">
+    <br><br>
+    <button type="submit">Submit</button>
+
+</form>
+<div>
+    {% for i in data %}
+        {{i.name}} - {{i.number}} <br>     
+    {% endfor %}
+</div>
+
+</body>
+</html>

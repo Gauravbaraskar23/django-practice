@@ -1,0 +1,13 @@
+Create virtual environment :-   python -m venv djangoenv
+For Activation :-               djangoenv\Scripts\activate
+For Deactivation :-             deactivate
+
+For create a project :-         django-admin startproject <projectName>
+For version : -                 django-admin version
+For run django on live server :- python manage.py runserver
+for migration :-     python manage.py makemigrations
+                    python manage.py migrate
+for creating test_app = python manage.py startapp test_app
+visit :- django project documentation
+
+Create to-do list
